@@ -1,5 +1,13 @@
 //Array of pokemons, their height, and type.
-let pokemonList = ['Venusar', ' Onix', ' Alakazam', ' Mienshao' ];
-let height = [2, 8.8, 1.5, 1.4];
-let type = [[' monster', ' grass'], [' mineral'], [' humanLike'], [' Field', ' humaLike']];
-document.write(type);
+let pokemonList = [
+   
+   
+    {name:'Venusar', height:2, type:['monster','grass']},
+    {name:'Onix', height:8.8, type:[' mineral']},
+    {name:'Alakazam', height:1.5, type:[' humanLike']},
+    {name:'Mienshao', height:1.4, type:[' Field', ' humaLike']}
+
+];
+
+console.log(pokemonList.height);
+
