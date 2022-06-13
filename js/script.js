@@ -8,17 +8,28 @@ let pokemonList = [
     {name:'Mienshao', height:1.4, type:[' Field', ' humaLike']}
 
 ];
-for (let i = 0; i < pokemonList.length; i++) {
-    document.write(pokemonList[i].name + '(height):'); 
 
-    document.write(pokemonList[i].height);
-    if (pokemonList[i].height > 5) {
-        
-        document.write(pokemonList[i].height + ' wow thats BIG!');
-    }
-  
 
-    
-}
+pokemonList.forEach(function(pokemonArr) {
+  document.write('<p>' + pokemonArr.name + '</p>' + 'Height ' + pokemonArr.height +'' + '<p>' + pokemonArr.type + '</p>' );
+ 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
