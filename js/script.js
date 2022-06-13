@@ -1,5 +1,6 @@
 //Array of pokemons, their height, and type.
-let pokemonList = [
+let pokemonRepository = (function() {
+  let pokemonList = [
    
    
     {name:'Venusar', height:2, type:['monster','grass']},
@@ -9,11 +10,39 @@ let pokemonList = [
 
 ];
 
+function add(metapod) {
+  
+  pokemonList.push(metapod);
+}
 
-pokemonList.forEach(function(pokemonArr) {
+function getAll() {
+ return pokemonList;
+}
+return {
+  add:add, 
+  getAll:getAll
+}
+
+})();
+
+console.log(pokemonRepository.add());
+pokemonRepository.add({name: 'metapod'});
+console.log(pokemonRepository.getAll());
+
+
+
+
+
+pokemonRepository.getAll().forEach(function(pokemonArr) {
   document.write('<p>' + pokemonArr.name + '</p>' + 'Height ' + pokemonArr.height +'' + '<p>' + pokemonArr.type + '</p>' );
  
 });
+
+
+
+
+
+
 
 
 
