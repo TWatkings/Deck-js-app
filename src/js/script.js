@@ -8,7 +8,7 @@ let pokemonRepository = (function () {
     } else {
       console.log("pokemon is not correct");
     }
-  }
+  } 
   function getAll() {
     return pokemonList;
   }
