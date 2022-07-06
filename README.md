@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a Pokemon Deck App that uses an modal. When a Pokemon is been clicked, the image, the height and the weight of the Pokemon will appear.
+This is a Pokemon Deck App that uses a modal to display over 150 pokemon. When a Pokemon is clicked, the image, the height, and the weight of the Pokemon will appear.
 
 ## Technology
 
@@ -11,8 +11,7 @@ This is a Pokemon Deck App that uses an modal. When a Pokemon is been clicked, t
 - CSS
 - JavaScript
 - Bootstrap
-- Fetch polyfill
-- Promise polyfill
+- Api
 
 ## Demo
 https://twatkings.github.io/Deck-js-app/src/index.html
