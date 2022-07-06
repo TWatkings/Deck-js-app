@@ -11,7 +11,7 @@ This is a Pokemon Deck App that uses a modal to display over 150 pokemon. When a
 - CSS
 - JavaScript
 - Bootstrap
--Api
+- Api
 
 ## Demo
 https://twatkings.github.io/Deck-js-app/src/index.html
